@@ -27,13 +27,13 @@ export default function LoginScreen({navigation}) {
   return(
     <SafeAreaView style={styles.container}>
       <Text style={styles.appNameText}>App Name</Text>
-      <TouchableOpacity  onPress={() => Bypass()} style={{top: "200px", left: "40px"}}>
+      {/*<TouchableOpacity  onPress={() => Bypass()} style={{top: "200px", left: "40px"}}>
         <Text style={{position: "absolute", top: "45px", left: "30px", color: "#000", fontSize: "35px", fontWeight: "bold", zIndex: 1}}>Login</Text>
         <svg xmlns="http://www.w3.org/2000/svg" width="182" height="146" fill="none" transform="scale(1,1)"viewBox="0 0 182 146">
           <path fill="#D9D9D9" d={"M59.797 13.657C63.223 6.115 72.716 0 81 0h90c8.284 0 12.223 6.115 8.797 13.657l-53.594 118.001c-3.426 7.543-12.919 13.657-21.203 13.657H15c-8.284 0-12.223-6.114-8.797-13.657l53.594-118Z"}/>
           <path fill="#D9D9D9" d="M0 15C0 6.716 6.716 0 15 0h80c8.284 0 15 6.716 15 15v114.914c0 8.285-6.716 15-15 15H15c-8.284 0-15-6.715-15-15V15Z"/>
         </svg>
-      </TouchableOpacity>
+      </TouchableOpacity>*/}
       <TouchableOpacity onPress={() => Bypass()}style={{top: "55px", left: "190px"}}>
         <Text style={{position: "absolute", top: "50px", left: "45px", color: "#000", fontSize: "35px", fontWeight: "bold", zIndex: 1}}>Sign Up</Text>
         <svg style={styles.signUpButton}xmlns="http://www.w3.org/2000/svg" width="182" height="146" fill="none" transform="scale(-1,-1)"viewBox="0 0 182 146">

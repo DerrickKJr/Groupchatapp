@@ -4,6 +4,6 @@
   "lang": "en",
   "name": "Groupchatapp",
   "short_name": "Groupchatapp",
-  "start_url": "/Groupchatapp?utm_source=web_app_manifest",
+  "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait"
 }
